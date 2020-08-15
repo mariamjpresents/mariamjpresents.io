@@ -1,0 +1,42 @@
+h1 {
+  background-color: yellow;
+  text-align: center;
+  font-size: 150px;
+  font-family: 'Niconne', cursive;
+}
+
+  @font-face {
+    font-family: 'Niconne', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Niconne&display=swap') format("truetype");
+    font-style: normal;
+    font-weight: 100;
+}
+
+.a,
+.b {
+  font-size: 25px;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+}
+
+hr {
+  border: 2px solid gray;
+  width: 60%;
+}
+
+form {
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+input[type=submit] {
+  background-color: yellow;
+  border: 1.5px solid black;
+  font-family: Arial Narrow, sans-serif;
+  font-weight: bolder;
+  font-size: 17px;
+  color: black;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
